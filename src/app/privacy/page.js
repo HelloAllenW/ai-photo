@@ -17,47 +17,62 @@ export default function PrivacyPage() {
         <span className={styles.eyebrow}>Privacy Policy</span>
         <h1 className={styles.title}>How AI Tool Studio handles data</h1>
         <p className={styles.description}>
-          This policy explains what data AI Tool Studio stores to provide
-          authentication, billing, image generation, and generation history.
+          This Privacy Policy explains how AI Tool Studio collects, uses,
+          stores, and shares information when you access the website, create an
+          account, purchase a subscription, upload reference images, or
+          generate AI images.
         </p>
 
         <section className={styles.section}>
           <h2>Data we collect</h2>
           <ul>
-            <li>Authentication data provided through Supabase Auth</li>
-            <li>Email address and basic account identifiers</li>
-            <li>Generation prompts, selected styles, and timestamps</li>
-            <li>Generated images and uploaded reference images needed for processing</li>
-            <li>Subscription status and plan identifiers returned by Creem</li>
+            <li>Account information such as your email address and authentication identifiers</li>
+            <li>Billing-related information such as subscription status, plan ID, and transaction metadata</li>
+            <li>Generation inputs including prompts, selected styles, and uploaded reference images</li>
+            <li>Generation outputs, download history, timestamps, and usage records</li>
+            <li>Technical information such as IP address, browser type, device details, and log data</li>
           </ul>
         </section>
 
         <section className={styles.section}>
-          <h2>How the data is used</h2>
+          <h2>How we use information</h2>
           <ul>
-            <li>To sign users in and maintain account sessions</li>
-            <li>To generate AI images and save them in user history</li>
-            <li>To enforce free-tier limits and subscription access</li>
-            <li>To process billing events and update subscription records</li>
+            <li>To authenticate users and maintain account access</li>
+            <li>To process prompts and generate images requested by users</li>
+            <li>To store generation history and make previous outputs available for download</li>
+            <li>To enforce free-tier limits, subscription entitlements, and account security</li>
+            <li>To operate support, fraud prevention, abuse detection, and legal compliance workflows</li>
           </ul>
         </section>
 
         <section className={styles.section}>
-          <h2>Third-party services</h2>
+          <h2>Third-party processors</h2>
           <p>
-            AI Tool Studio relies on Supabase for authentication, database, and
-            storage, Replicate for AI image generation, and Creem for checkout
-            and subscription billing. Each provider may process data necessary
-            to deliver its service.
+            AI Tool Studio uses third-party providers to operate core features.
+            Supabase is used for authentication, database, and file storage.
+            Replicate is used to process AI image generation requests. Creem is
+            used as the merchant of record for subscription checkout and billing
+            operations. These providers may process the information necessary to
+            deliver their parts of the service.
           </p>
         </section>
 
         <section className={styles.section}>
-          <h2>Contact and requests</h2>
+          <h2>Data retention</h2>
           <p>
-            Before launch, replace this section with your business contact email
-            and any region-specific privacy disclosures required for your
-            audience.
+            We retain account, billing, and generation data for as long as it is
+            reasonably needed to operate the service, comply with legal
+            obligations, resolve disputes, and enforce our agreements. We may
+            delete or anonymize information when it is no longer required.
+          </p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Contact</h2>
+          <p>
+            If you have questions about this Privacy Policy or want to request
+            account-related support, contact{" "}
+            <a href="mailto:allenwhl0815@gmail.com">allenwhl0815@gmail.com</a>.
           </p>
         </section>
 
@@ -65,6 +80,7 @@ export default function PrivacyPage() {
           <Link href="/">Back to home</Link>
           <Link href="/pricing">Pricing</Link>
           <Link href="/terms">Terms of Service</Link>
+          <Link href="/refund">Refund Policy</Link>
         </div>
       </main>
     </div>

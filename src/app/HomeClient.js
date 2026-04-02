@@ -430,20 +430,9 @@ export default function HomeClient() {
           <Link href="/pricing">Pricing</Link>
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms of Service</Link>
-          <a
-            href="https://supabase.com/dashboard"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Supabase Dashboard
-          </a>
-          <a
-            href="https://docs.creem.io/features/subscriptions/introduction"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Creem Subscriptions Docs
-          </a>
+          <Link href="/refund">Refund Policy</Link>
+          <Link href="/acceptable-use">Acceptable Use Policy</Link>
+          <a href="mailto:allenwhl0815@gmail.com">Support</a>
         </div>
       </main>
     </div>

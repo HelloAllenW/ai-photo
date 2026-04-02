@@ -14,6 +14,12 @@ export const siteConfig = {
   termsTitle: "Terms of Service | AI Tool Studio",
   termsDescription:
     "Review the terms for using AI Tool Studio, including free-tier limits and subscriptions.",
+  refundTitle: "Refund Policy | AI Tool Studio",
+  refundDescription:
+    "Review the refund and cancellation policy for AI Tool Studio subscriptions.",
+  acceptableUseTitle: "Acceptable Use Policy | AI Tool Studio",
+  acceptableUseDescription:
+    "Read the rules for acceptable prompts, uploads, and generated content in AI Tool Studio.",
   loginTitle: "Login | AI Tool Studio",
   loginDescription:
     "Sign in with Google, GitHub, or Magic Link to generate and manage AI images.",
